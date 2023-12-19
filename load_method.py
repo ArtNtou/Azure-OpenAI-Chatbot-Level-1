@@ -42,7 +42,7 @@ def load_files(embed_model, pdfs, index_name):
                                                 persist_path=f"{index_name}vctrstr.json",
                                                 serializer="json")
 
-    #save vectorstore in order to reuse it and create again embeddings for the same documents
+    #save vectorstore in order to reuse it and create again embeddings for the same documentst
     vectorstore.persist()
 
 

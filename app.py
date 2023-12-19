@@ -10,7 +10,7 @@ from langchain.callbacks import get_openai_callback
 from langchain.vectorstores import SKLearnVectorStore
 from dotenv import load_dotenv
 
-from preprocessing_methods import load_files
+from load_method import load_files
 
 with st.sidebar:
     st.title("Useful Information")
