@@ -31,7 +31,7 @@ Welcome to the Chatbot with PDF, Level 1! This interactive application leverages
 
 ## Files
 
-- **.env File**: The `.env` file serves as a configuration file for storing essential environment variables required by your application. Check the comments within the file for guidance on where to locate and define each key.
+- **.env**: The `.env` file serves as a configuration file for storing essential environment variables required by your application. Check the comments within the file for guidance on where to locate and define each key.
 
 - **load_method.py**: This file houses the file loading method, capable of reading PDF files, segmenting them into smaller chunks, and creating a vector store using ADA2 embeddings.
 
